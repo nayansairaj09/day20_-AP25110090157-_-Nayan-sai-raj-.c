@@ -1,0 +1,144 @@
+cd "/Users/nayansairaj/Desktop/nayan c prog/output"
+./"day20_smart warehouse analytical system"
+nayansairaj@Nayansairajs-MacBook-Air nayan c prog % cd "/Users/nayansairaj/Desktop/nayan c prog/output"
+nayansairaj@Nayansairajs-MacBook-Air output % ./"day20_smart warehouse analytical system"
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 1
+
+Enter Product ID: 123
+Enter Quantity: 3
+Enter Price per unit: 35
+
+✔ Product Added Successfully!
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 2
+
+Enter Product ID to search: 123
+
+Product Found!
+ID: 123
+Quantity: 3
+Price: 35
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 3
+
+Enter Product ID to update: 123
+
+1. Increase Stock
+2. Decrease Stock
+Enter choice: 1
+Enter quantity: 4
+
+✔ Stock Increased Successfully!
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 3
+
+Enter Product ID to update: 123
+
+1. Increase Stock
+2. Decrease Stock
+Enter choice: 2
+Enter quantity: 3
+
+✔ Stock Decreased Successfully!
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 4
+
+Enter 3*3 Rack Stock Matrix:
+123
+123
+123
+456
+456
+556
+789
+789
+789
+
+===== Rack Report =====
+Maximum Stock  : 789 at position (2, 0)
+Minimum Stock  : 123 at position (0, 0)
+Total Items in Racks: 4204
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 5
+
+ID      Qty     Price   StockValue
+123     4       35      140
+
+Highest Stock Value Product ID : 123 (140)
+Lowest Stock Value Product ID  : 123 (140)
+Total Warehouse Value          : 140
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 6
+
+ID      Quantity        Price
+123     4               35
+
+==================== Warehouse Menu ====================
+1. Add Product
+2. Search Product
+3. Update Quantity
+4. Generate Rack Report
+5. Calculate Stock Values
+6. Display All Products
+7. Exit
+Enter your choice: 7
+
+Thank you! Exiting...
+nayansairaj@Nayansairajs-MacBook-Air output % 
